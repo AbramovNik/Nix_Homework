@@ -394,7 +394,8 @@ a {
         font-size: 13px; } }
 
 .offer .icon {
-  height: 90px;
+  font-size: 70px;
+  color: #FF699F;
   margin: 10px; }
 
 .footer {
