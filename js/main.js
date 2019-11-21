@@ -7,6 +7,7 @@ $(document).ready(function () {
     if ($('body').width() <= 1023) {
         $(".service-wrapp").slick({
             arrows: false,
+            slideToShow: 1,
             dots: true,
         });
 
