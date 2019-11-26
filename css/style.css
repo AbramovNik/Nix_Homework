@@ -37,6 +37,34 @@ a {
   overflow: hidden;
 }
 
+
+
+@keyframes shadow {
+  0% {opacity:0}
+  50% {opacity:.5}
+  100% {opacity:1}
+}
+
+
+.text-hold h1, .text-hold h1+p {
+  animation: shadow 3s linear;
+
+}
+
+
+
+.visual-bg, .text-hold p+p{
+  animation: shadow 1s linear 2s;
+  animation-fill-mode: backwards;
+}
+
+.text-hold .button-wrapp a{
+  animation: shadow 1s linear 3s;
+  animation-fill-mode: backwards;
+}
+
+
+
 .nav-btn {
   display: none;
 }
