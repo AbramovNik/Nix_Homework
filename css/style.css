@@ -47,19 +47,19 @@ a {
 
 
 .text-hold h1, .text-hold h1+p {
-  animation: shadow 3s linear;
+  animation: shadow 2s linear;
 
 }
 
 
 
 .visual-bg, .text-hold p+p{
-  animation: shadow 1s linear 2s;
+  animation: shadow 1s linear 1s;
   animation-fill-mode: backwards;
 }
 
 .text-hold .button-wrapp a{
-  animation: shadow 1s linear 3s;
+  animation: shadow 1s linear 2s;
   animation-fill-mode: backwards;
 }
 
