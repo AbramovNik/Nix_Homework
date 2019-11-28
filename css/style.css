@@ -47,7 +47,7 @@ a {
 
 
 .text-hold h1, .text-hold h1+p {
-  animation: shadow 2s linear;
+  animation: shadow 1s linear;
 
 }
 
@@ -69,6 +69,32 @@ a {
   display: none;
 }
 @media (max-width: 1023px) {
+
+
+  .visual-bg, .text-hold p+p{
+    animation: shadow 1s linear 1s;
+    animation-fill-mode: backwards;
+  }
+  .text-hold p+p{
+    animation: shadow 1s linear 2s;
+    animation-fill-mode: backwards;
+  }
+  .text-hold h1, .text-hold h1+p {
+  animation: shadow 1s linear;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+  
+  
+  
+}
+
+
+.text-hold .button-wrapp a{
+  animation: shadow 1s linear 2s;
+  animation-fill-mode: backwards;
+}
+
+
   .nav-btn {
     display: block;
     width: 40px;
@@ -177,6 +203,7 @@ a {
     visibility: hidden;
     position: absolute;
     left: 0;
+    z-index: 2;
     top: 0;
   }
 }
