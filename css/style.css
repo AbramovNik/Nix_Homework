@@ -202,7 +202,7 @@ a {
     opacity: 0;
     visibility: hidden;
     position: absolute;
-    left: 0;
+    left: 100%;
     z-index: 2;
     top: 0;
   }
